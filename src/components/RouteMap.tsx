@@ -102,7 +102,7 @@ export default function RouteMap({
   const LIMA_COORDINATES: [number, number] = [-12.0453, -77.0311];
   
   const [center, setCenter] = useState<[number, number]>(LIMA_COORDINATES);
-  const [zoom, setZoom] = useState(15); // Aumentar un poco el zoom para mejor visualización
+  const zoom = 15; // Zoom fijo ya que no se modifica
   const [showAddCustomerModal, setShowAddCustomerModal] = useState(false);
   const [newCustomerPosition, setNewCustomerPosition] = useState<LatLng | null>(null);
   const [newCustomerName, setNewCustomerName] = useState("");

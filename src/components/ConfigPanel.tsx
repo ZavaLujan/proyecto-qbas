@@ -123,9 +123,6 @@ export default function ConfigPanel({
     // Generar ID único para el nuevo cliente
     const nextId = `c${customers.length + 11}`;
     
-    // Definir colores disponibles para asignar al cliente
-    const colors = ['#FF5733', '#33FF57', '#3357FF', '#FF33A8', '#33FFF0', '#F0FF33', '#9033FF', '#FF9033', '#33FFAA', '#FF33DD'];
-    
     const newCustomer: Location = {
       id: nextId,
       name: newCustomerName,
