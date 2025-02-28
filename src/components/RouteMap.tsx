@@ -54,14 +54,6 @@ const depotIcon = new Icon({
   popupAnchor: [1, -34]
 });
 
-const unassignedIcon = new Icon({
-  ...defaultIcon.options,
-  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-black.png',
-  iconSize: [25, 41],
-  iconAnchor: [12, 41],
-  popupAnchor: [1, -34]
-});
-
 // Crear un icono con color personalizado
 const createColoredIcon = (color: string) => {
   // Usar algunos colores predefinidos de marcadores de Leaflet
